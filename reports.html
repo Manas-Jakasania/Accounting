@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - 11 Accounting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.jpg" alt="11 Accounting Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="transactions.html">Transactions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="invoices.html">Invoices</a></li>
+                        <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Generate Reports</h2>
+        <p class="text-center">Select a report type to view or download.</p>
+        
+        <div class="text-center">
+            <a href="#" class="btn btn-primary m-2">Monthly Report</a>
+            <a href="#" class="btn btn-primary m-2">Annual Report</a>
+            <a href="#" class="btn btn-primary m-2">Transaction Report</a>
+        </div>
+        
+        <h3 class="mt-5">Recent Reports</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Report Name</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January 2024 Report</td>
+                    <td>2024-01-31</td>
+                    <td><a href="#" class="btn btn-secondary btn-sm">View</a> <a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>February 2024 Report</td>
+                    <td>2024-02-29</td>
+                    <td><a href="#" class="btn btn-secondary btn-sm">View</a> <a href="#" class="btn btn-danger btn-sm">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="text-center">&copy; 2024 11 Accounting. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
